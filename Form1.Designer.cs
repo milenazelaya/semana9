@@ -56,7 +56,7 @@ namespace semana9
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.77391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(148, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(375, 33);
+            this.label1.Size = new System.Drawing.Size(364, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingresos de usuarios al sistema";
             // 
@@ -206,6 +206,7 @@ namespace semana9
             this.button10.TabIndex = 15;
             this.button10.Text = "Salir";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Form1
             // 
