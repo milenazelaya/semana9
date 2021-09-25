@@ -23,5 +23,10 @@ namespace semana9
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -206,6 +206,7 @@ namespace semana9
             this.button10.TabIndex = 15;
             this.button10.Text = "Salir";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Form1
             // 
